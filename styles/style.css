@@ -1,0 +1,26 @@
+.downloadBtn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 6px;
+    margin: 2px;
+    border-radius: 50%;
+    transition: all .2s ease
+}
+
+.downloadBtn:hover,
+.downloadBtn:focus {
+    background-color: rgb(224, 224, 224);
+}
+
+.downloadBtn:focus {
+    outline: none;
+}
+
+.downloadBtn:focus:active {
+    background-color: rgb(197, 197, 197);
+}
+
+.downloadBtnLogo {
+    fill: rgb(95, 99, 104);
+}
