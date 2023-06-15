@@ -4,7 +4,6 @@
          "matches": [ "https://classroom.google.com/*" ],
          "css": [ "styles/style.css" ],
          "js": [ "scripts/content.js" ]
-         
       }
    ],
    "icons": {
