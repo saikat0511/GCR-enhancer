@@ -9,7 +9,7 @@ A browser extension to display a download button next to file attachments in Goo
 
 ## Installation
 
-- Chrome: Web Store (Awaiting review)
+- Chrome: [Web Store](https://chrome.google.com/webstore/detail/google-classroom-quick-do/nbijdallbnpfkkglpdepfjdlelflfkdc)
 - Firefox: Add-ons (Awaiting review)
 
 ## Manual installation
