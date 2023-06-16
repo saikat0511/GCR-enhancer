@@ -1,26 +1,174 @@
 .downloadBtn {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding: 6px;
-    margin: 2px;
-    border-radius: 50%;
-    transition: all .2s ease
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ padding: 6px;
+ margin: 2px;
+ border-radius: 50%;
+ transition: all .2s ease
 }
-
 .downloadBtn:hover,
 .downloadBtn:focus {
-    background-color: rgb(224, 224, 224);
+ /* background-color: rgba(0, 0, 0, 0.111); */
+ background-color: rgba(32, 33, 36, 0.04);
 }
-
 .downloadBtn:focus {
-    outline: none;
+ outline: none;
 }
-
 .downloadBtn:focus:active {
-    background-color: rgb(197, 197, 197);
+ background-color: rgba(32, 33, 36, 0.2);
 }
 
 .downloadBtnLogo {
-    fill: rgb(95, 99, 104);
+ fill: #5f6368;
+}
+
+/* classes calendar practice sets in side bar */
+.Xi8cpb,
+.qr5cDe {
+ height:2.75rem;
+}
+/* enrolled in sidebar */
+.pkktJb {
+ height:0.75rem;
+}
+/* subjects scroll list item in side bar */
+.Xi8cpb.vG1fDb {
+ height:2.75rem
+}
+
+/* navbar centered items container */
+@media (max-width: 65.125em) {
+ .mwJvDe .ECPFEb {
+   padding-top: 3rem;
+ }
+}
+/* navbar */
+.joJglb {
+ border-bottom: 0;
+}
+/* top loading animation bar */
+.aTtRxf {
+ bottom: -0.0625rem;
+}
+/* navbar left aligned elements */
+.XIpEib {
+ height:3rem;
+}
+/* navbar centered item container */
+.R2tE8e {
+ height:3rem;
+}
+/* navbar centered items */
+.WCtYK .hN1OOc {
+ height:3rem
+}
+/* navbar shadow on scroll */
+.mhCMAe {
+ height:3rem;
+}
+
+/* stream banner container */
+.v9TZ3c {
+ margin-top: 0.5rem;
+ border-radius:1.5rem;
+}
+/* stream banner */
+.qyN25 {
+ height: 7rem;
+}
+/* banner info dropdown panel */
+.n0p5v {
+ padding: 0.5rem 1.5rem;
+}
+
+/* stream container */
+.M7zXZd {
+ margin-top:1rem;
+}
+@media (max-width: 30em){
+ .M7zXZd {
+   margin-top: 0.5rem;
+ }
+}
+
+/* upcoming */
+.d4Fe0d {
+ border-radius:1.5rem;
+}
+
+/* announcements */
+.GWZ7yf {
+ border-radius:1.5rem;
+}
+/* announcements opened */
+.LZqXdf {
+ padding-top:0.75rem;
+}
+/* announcements text box */
+.xVPuB .I9OJHe,
+.vnnr5e .I9OJHe {
+ border-radius:1.5rem 1.5rem 0 0;
+}
+/* announcements text box */
+.TQX6ub:not(:empty) {
+ margin-bottom:0.5rem;
+}
+/* announcements add file links container */
+.AWfQId .w1v75b, .AWfQId .rxO3db {
+ margin-bottom: 0.75rem;
+}
+/* announcments toolbar container */
+.AWfQId {
+ padding: 0.2rem 0.5rem 0 1rem;
+}
+
+/* stream post cards */
+.Aopndd {
+ border-radius: 1.5rem;
+}
+/* stream post cards */
+.LBlAUc {
+ margin-bottom: 1rem;
+}
+@media (max-width: 30em){
+ .LBlAUc {
+   margin-bottom: 0.5rem;
+ }
+}
+/* stream post cards */
+.JZicYb {
+ height:3rem;
+}
+
+/* attachment preview dimensions */
+.bHOAdb {
+ height: 3rem;
+ width: 4.5rem;
+}
+
+/* post files container */
+.hjqfGd {
+ padding-bottom:0;
+}
+/* submit button */
+.AeAAkf {
+ border-radius: 1.5rem;
+}
+
+/* teachers and Classmates heading, People tab */
+.uO32ac {
+ height:2.5rem;
+}
+/* teachers list container */
+.raZwr {
+ margin-bottom: 0.5rem;
+}
+/* classmates heading */
+.MwhM8b {
+ margin-bottom: 0.25rem;
+}
+/* classmates list tr element */
+.d6CWTd {
+ height: 0;
 }

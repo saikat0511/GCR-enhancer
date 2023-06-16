@@ -63,12 +63,6 @@ const insertDownloadButtons = (attachmentElements) => {
     // create the download button
     let downloadButton = createDownloadButton(directDriveURL, fileName);
 
-    //minimise padding
-    elem.children[0].style.height = '3rem';
-    elem.children[0].style.width = '4rem';
-    elem.parentNode.style.paddingRight = '0';
-    elem.nextSibling.style.paddingLeft = '0';
-
     // insert the download button into the DOM
     elem.parentNode.appendChild(downloadButton);
   });
