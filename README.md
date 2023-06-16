@@ -1,5 +1,9 @@
 # GCR Enhancer
-A browser extension improves google classroom experience. Adds a quick download button next to file attachments and modifies CSS for a modern and more space efficient layout. Supports both chromium and firefox.
+
+<p align="center">
+<img src="storeAssets/storeIcon.png">
+</p>
+A browser extension improves google classroom experience. Adds a quick download button next to file attachments and modifies CSS for a modern and more space efficient layout. Supports both chromium based browsers and firefox.
 
 ## Preview
 
