@@ -1,0 +1,26 @@
+{
+   "content_scripts": [
+      {
+         "matches": [ "https://classroom.google.com/*" ],
+         "css": [ "styles/style.css" ],
+         "js": [ "scripts/content.js" ]
+      }
+   ],
+   "icons": {
+      "16": "images/16.png",
+      "32": "images/32.png",
+      "48": "images/48.png",
+      "128": "images/128.png"
+   },
+   "manifest_version": 2,
+   "name": "Google Classroom Quick Download Button",
+   "short_name": "GCR Quick Download",
+   "version": "1.0.0",
+   "description": "Quickly download classroom attachments without additional clicks.",
+   "browser_specific_settings": {
+      "gecko": {
+        "id": "GCRquickdown@saikat0511.addons.mozilla.org"
+      }
+    }
+    
+}
