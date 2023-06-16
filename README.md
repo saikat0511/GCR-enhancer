@@ -11,8 +11,8 @@ A browser extension to display a download button next to file attachments in Goo
 
 |Chrome|Firefox|
 |:---:|:---:|
-|<a href="https://chrome.google.com/webstore/detail/google-classroom-quick-do/nbijdallbnpfkkglpdepfjdlelflfkdc"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg" height="64"></a>|<img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg" width="64">|
-|[Download](https://chrome.google.com/webstore/detail/google-classroom-quick-do/nbijdallbnpfkkglpdepfjdlelflfkdc)|`Awaiting review`|
+|<a href="https://chrome.google.com/webstore/detail/google-classroom-quick-do/nbijdallbnpfkkglpdepfjdlelflfkdc"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg" height="64"></a>|<a href="https://addons.mozilla.org/en-US/firefox/addon/gcr-quick-download-button/"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg" width="64"></a>|
+|[Download](https://chrome.google.com/webstore/detail/google-classroom-quick-do/nbijdallbnpfkkglpdepfjdlelflfkdc)|[Download](https://addons.mozilla.org/en-US/firefox/addon/gcr-quick-download-button/)|
 
 ## Manual installation
 
