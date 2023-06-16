@@ -1,5 +1,5 @@
-# GCR Quick Download Button
-A browser extension to display a download button next to file attachments in Google Classroom. Supports both chromium and firefox.
+# GCR Enhancer
+A browser extension improves google classroom experience. Adds a quick download button next to file attachments and modifies CSS for a modern and more space efficient layout. Supports both chromium and firefox.
 
 ## Preview
 
