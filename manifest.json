@@ -3,7 +3,8 @@
       {
          "matches": [ "https://classroom.google.com/*" ],
          "css": [ "styles/style.css" ],
-         "js": [ "scripts/content.js" ]
+         "js": [ "scripts/content.js" ],
+         "run_at": "document_start"
       }
    ],
    "icons": {

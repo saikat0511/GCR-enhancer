@@ -82,4 +82,4 @@ const start = () => {
 
 
 // Entry point
-start();
+window.onload = () => start();
