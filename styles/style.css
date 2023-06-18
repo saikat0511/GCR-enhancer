@@ -1,6 +1,6 @@
 :root {
- --background1: rgb(245, 247, 250);
- --background2: rgb(232, 234, 237);
+ --background1: rgb(245,247,250);
+ --background2: rgb(232,234,237);
 }
 
 
@@ -85,7 +85,7 @@ nav {
 }
 /* sidebar */
 .ETRkCe {
- background-color:var(--background2) !important;
+ background-color: var(--background2) !important;
 }
 /* stream post cards */
 .Aopndd {
@@ -242,7 +242,7 @@ html[dark='true'] .iph-dialog.iph-dialog {
 
 /* lost focus background cover */
 .AxPfNe {
- opacity: .5;
+ opacity: .5 !important;
  background: rgb(0,0,0) !important;
 }
 
@@ -462,9 +462,9 @@ html[dark='true'] .iph-dialog.iph-dialog {
 }
 /* medium screen topics drop down menu */
 .VfPpkd-O1htCb-OWXEXe-INsAgc .VfPpkd-NSFCdd-i5vt6e .VfPpkd-NSFCdd-Brv4Fb {
- width:max(2rem,var(--mdc-shape-small,4px)) !important;
- border-top-left-radius:var(--mdc-shape-small,1rem) !important;
- border-bottom-left-radius:var(--mdc-shape-small,1rem) !important;
+ width: max(2rem,var(--mdc-shape-small,4px)) !important;
+ border-top-left-radius: var(--mdc-shape-small,1rem) !important;
+ border-bottom-left-radius: var(--mdc-shape-small,1rem) !important;
 }
 .VfPpkd-O1htCb-OWXEXe-INsAgc .VfPpkd-NSFCdd-i5vt6e .VfPpkd-NSFCdd-MpmGFe {
  border-top-right-radius: var(--mdc-shape-small,1rem) !important;
