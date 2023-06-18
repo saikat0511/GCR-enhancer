@@ -1,3 +1,58 @@
+:root {
+ --background1: rgb(245, 247, 250);
+ --background2: rgb(232, 234, 237);
+}
+
+
+html[dark='true'] {
+ filter: invert(1) hue-rotate(180deg);
+}
+/* 
+>>> revert the following:
+>> file viewer (already dark)
+>> google apps iframe on navbar
+>> classroom practice sets [TODO]
+>> divs containing background images
+>> images
+>> colored icons
+>> todo icons */
+html[dark='true'] .ndfHFb-c4YZDc,
+html[dark='true'] iframe[src*="ogs.google.com"],
+html[dark='true'] iframe[src*="classroom.google.com/ps"],
+html[dark='true'] div[style*="background-image:"]:not(.ndfHFb-c4YZDc div),
+html[dark='true'] img:not(.ndfHFb-c4YZDc img),
+html[dark='true'] .vUBwW,
+html[dark='true'] .m1PbN {
+ filter: invert(1) hue-rotate(180deg);
+}
+
+
+.themeBtn {
+ outline: none;
+ background: transparent;
+ border: 0;
+ z-index: 987;
+ cursor: pointer;
+ padding: 10px;
+ margin-inline: 0.75rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+ transition: all .2s ease;
+}
+.themeBtn:hover,
+.themeBtn:focus {
+ background: rgba(0, 0, 0, 0.05)
+}
+.themeBtn:focus {
+ outline: none;
+}
+.themeBtn:focus:active {
+ background: rgba(0, 0, 0, 0.15);
+}
+
+
 .downloadBtn {
  display: flex;
  justify-content: center;
@@ -18,6 +73,125 @@
  background: rgba(0,0,0,.15);
 }
 
+
+/* ================================================================ */
+/* dark mode backgrounds fix                                        */
+/* ================================================================ */
+body {
+ background: var(--background1);
+}
+nav {
+ background: var(--background2) !important;
+}
+/* sidebar */
+.ETRkCe {
+ background-color:var(--background2) !important;
+}
+/* stream post cards */
+.Aopndd {
+ background: var(--background1) !important;
+}
+/* copy link dialog */
+.JPdR6b {
+ background: var(--background2) !important;
+}
+/* class card move unenroll menu */
+.VfPpkd-xl07Ob-XxIAqe {
+ background-color: var(--mdc-theme-surface,var(--background2)) !important;
+}
+/* upcoming */
+.d4Fe0d {
+ background-color: var(--background1) !important;
+}
+/* announcements box */
+.hgjBDc {
+ background-color: var(--background1) !important;
+}
+.I7OXgf {
+ background-color: var(--background2) !important;
+}
+.iph-dialog {
+ background: var(--background2) !important;
+}
+
+
+/* ================================================================ */
+/* dark mode shadows fix                                            */
+/* ================================================================ */
+/* lost focus background cover */
+html[dark='true'] .AxPfNe {
+ background: rgb(255,255,255) !important;
+}
+/* move class dialog background */
+html[dark='true'] .NBxL9e {
+ background-color: rgba(255,255,255,.5) !important;
+}
+/* copy link dialog */
+html[dark='true'] .hVNH5c {
+ box-shadow: rgb(255,255,255) 0px 5px 10px !important;
+}
+/* sidebar */
+html[dark='true'] .ETRkCe {
+ box-shadow: rgb(255,255,255) 0px 5px 15px !important;
+}
+/* navbar scroll shadow */
+html[dark='true'] .sw3lj {
+ box-shadow: rgb(255,255,255) 0px 5px 10px !important;
+}
+/* announcements box */
+html[dark='true'] .GWZ7yf {
+ border: 0.0625rem solid rgb(218,220,224);
+ box-shadow: rgb(255,255,255) 0px 5px 10px !important;
+}
+/* todo all classes dropdown */
+html[dark='true'] .s8kOBc {
+ box-shadow: rgb(255,255,255) 0px 5px 10px !important;
+}
+/* todo item */
+html[dark='true'] .MHxtic:hover {
+ margin-top: -0.0625rem !important;
+ box-shadow: rgb(255,255,255) 0px 5px 10px !important;
+ border: 0.0625rem solid rgb(224, 224, 224) !important;
+}
+html[dark='true'] .MHxtic:focus-within {
+ margin-top: -0.0625rem !important;
+ box-shadow: rgb(255,255,255) 0px 5px 10px !important;
+ border: 0.0625rem solid rgb(224, 224, 224) !important;
+}
+/* class card */
+html[dark='true'] .rZXyy.YwNp1,
+html[dark='true'] .rZXyy:not(.u0dx8e):not(.ILo0B):not(.xp2dJ):hover,
+html[dark='true'] .rZXyy:not(.u0dx8e):not(.ILo0B):not(.xp2dJ):focus {
+ box-shadow: rgb(255,255,255) 0px 5px 15px !important;
+}
+html[dark='true'] .gHz6xd.rZXyy:not(.kKn9Nc):not(.u0dx8e):hover {
+ border: 0.0625rem solid rgb(224, 224, 224) !important;
+}
+html[dark='true'] .gHz6xd.xp2dJ {
+ box-shadow: rgb(255,255,255) 0px 5px 15px !important;
+}
+/* class card move unenroll menu */
+html[dark='true'] .q6oraf {
+ box-shadow: rgb(255,255,255) 0px 5px 10px !important;
+}
+/* move class dialog */
+html[dark='true'] .I7OXgf {
+ box-shadow: rgb(255,255,255) 0px 5px 15px !important;
+}
+/* classwork tab item */
+html[dark='true'] .lXuxY,
+html[dark='true'] .pO6AMc, .PqkECe {
+ box-shadow: rgb(255,255,255) 0px 5px 10px !important;
+ border: 0.0625rem solid rgb(224, 224, 224) !important;
+}
+html[dark='true'] .iph-dialog.iph-dialog {
+ box-shadow: rgb(255,255,255) 0px 5px 15px !important;
+}
+
+
+/* ================================================================ */
+/* misc styling                                                     */
+/* ================================================================ */
 /* move class dialog */
 .OkyLBb .aZsqhc {
  padding: .25rem 1.5rem !important;
