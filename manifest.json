@@ -16,8 +16,7 @@
   },
   "permissions": [ "storage" ],
   "manifest_version": 3,
-  "name": "Google Classroom Quick Download Button",
-  "short_name": "GCR Quick Download",
+  "name": "GCR Enhancer",
   "version": "1.2.0",
-  "description": "Quickly download classroom attachments without additional clicks."
+  "description": "UI improvements for Google Classroom"
 }
