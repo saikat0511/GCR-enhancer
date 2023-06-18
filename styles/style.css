@@ -5,174 +5,338 @@
  padding: 6px;
  margin: 2px;
  border-radius: 50%;
- transition: all .2s ease
+ transition: all .2s ease;
 }
 .downloadBtn:hover,
 .downloadBtn:focus {
- /* background-color: rgba(0, 0, 0, 0.111); */
- background-color: rgba(32, 33, 36, 0.04);
+ background: rgba(0,0,0,.05);
 }
 .downloadBtn:focus {
  outline: none;
 }
 .downloadBtn:focus:active {
- background-color: rgba(32, 33, 36, 0.2);
+ background: rgba(0,0,0,.15);
 }
 
-.downloadBtnLogo {
- fill: #5f6368;
+/* move class dialog */
+.OkyLBb .aZsqhc {
+ padding: .25rem 1.5rem !important;
+}
+.thP79c {
+ min-height: 2.5rem !important;
+}
+.s8kmpb {
+ padding-top: .5rem !important;
+}
+.Shk6y {
+	margin-top: 16px !important;
+}
+
+/* move class dialog close button */
+.ZDSs1:not(:hover),
+.ueScFe:not(:hover),
+.p9Nwte:not(:hover),
+.VsxsTb:not(:hover) {
+	color: #000 !important;
+	fill: #000 !important;
+}
+.VsxsTb {
+ color: #000 !important;
+ fill: #000 !important;
+}
+.VsxsTb:hover {
+	background-color: rgba(0,0,0,.1) !important;
+}
+
+/* file viewer open with button */
+.ndfHFb-c4YZDc-i5oIFb .ndfHFb-c4YZDc-Wrql6b-FNFY6c-J42Xof-qMHh7d {
+ border: 0 !important;
+ border-radius: 1rem !important;
+}
+.ndfHFb-c4YZDc-to915-LgbsSe.ndfHFb-c4YZDc-LgbsSe {
+ border-radius: 1rem !important;
+ text-shadow: none !important;
+}
+.ndfHFb-c4YZDc-i5oIFb.ndfHFb-c4YZDc-xl07Ob,
+.ndfHFb-c4YZDc-i5oIFb.ndfHFb-c4YZDc-mg9Pef {
+ border-radius: 1rem !important;
+}
+/* file viewer bottom toolbar zoom */
+.ndfHFb-c4YZDc-q77wGc {
+ border-radius: 1rem !important;
+}
+
+/* lost focus background cover */
+.AxPfNe {
+ opacity: .5;
+ background: rgb(0,0,0) !important;
 }
 
 /* classes calendar practice sets in side bar */
 .Xi8cpb,
 .qr5cDe {
- height:2.75rem;
+ height: 2.75rem !important;
 }
-/* enrolled in sidebar */
+/* enrolled/teaching in sidebar */
 .pkktJb {
- height:0.75rem;
+ height: 1rem !important;
+ margin-bottom: .5rem !important;
 }
 /* subjects scroll list item in side bar */
 .Xi8cpb.vG1fDb {
- height:2.75rem
+ height: 2.75rem !important;
 }
 
 /* navbar centered items container */
 @media (max-width: 65.125em) {
  .mwJvDe .ECPFEb {
-   padding-top: 3rem;
+   padding-top: 3rem !important;
  }
 }
 /* navbar */
 .joJglb {
- border-bottom: 0;
+ border-bottom: 0 !important;
 }
 /* top loading animation bar */
 .aTtRxf {
- bottom: -0.0625rem;
+ bottom: -.0625rem !important;
 }
 /* navbar left aligned elements */
 .XIpEib {
- height:3rem;
+ height: 3rem !important;
 }
 /* navbar centered item container */
 .R2tE8e {
- height:3rem;
+ height: 3rem !important;
 }
 /* navbar centered items */
 .WCtYK .hN1OOc {
- height:3rem
+ height: 3rem !important;
 }
 /* navbar shadow on scroll */
 .mhCMAe {
- height:3rem;
+ height: 3rem !important;
 }
 
 /* stream banner container */
 .v9TZ3c {
- margin-top: 0.5rem;
- border-radius:1.5rem;
+ margin-top: .5rem !important;
+ border-radius: 1rem !important;
 }
 /* stream banner */
 .qyN25 {
- height: 7rem;
+ height: 7rem !important;
 }
 /* banner info dropdown panel */
 .n0p5v {
- padding: 0.5rem 1.5rem;
+ padding: .5rem 1.5rem !important;
+}
+
+/* customize appearance dialog */
+.I7OXgf {
+ border-radius: 1rem !important;
+}
+/* customize appearance image */
+.FVEPee {
+ border-radius: 1rem !important;
 }
 
 /* stream container */
 .M7zXZd {
- margin-top:1rem;
+ margin-top: 1rem !important;
 }
 @media (max-width: 30em){
  .M7zXZd {
-   margin-top: 0.5rem;
+   margin-top: .5rem !important;
  }
 }
 
 /* meet join button */
 .VfPpkd-LgbsSe-OWXEXe-k8QpJ {
-  border-radius:1.5rem;
- } 
+ border-radius: 1rem !important;
+}
 /* upcoming */
 .d4Fe0d {
- border-radius:1.5rem;
+ border-radius: 1rem !important;
+}
+/* view all button */
+.VfPpkd-LgbsSe .VfPpkd-Jh9lGc {
+ border-radius: 1rem !important;
 }
 
 /* announcements */
 .GWZ7yf {
- border-radius:1.5rem;
+ border-radius: 1rem !important;
 }
 /* announcements opened */
 .LZqXdf {
- padding-top:0.75rem;
-}
-/* announcements text box */
-.xVPuB .I9OJHe,
-.vnnr5e .I9OJHe {
- border-radius:1.5rem 1.5rem 0 0;
+ padding-top: .75rem !important;
 }
 /* announcements text box */
 .TQX6ub:not(:empty) {
- margin-bottom:0.5rem;
+ margin-bottom: .5rem !important;
 }
 /* announcements add file links container */
-.AWfQId .w1v75b, .AWfQId .rxO3db {
- margin-bottom: 0.75rem;
+.AWfQId .w1v75b,
+.AWfQId .rxO3db {
+ margin-bottom: .75rem !important;
 }
 /* announcments toolbar container */
 .AWfQId {
- padding: 0.2rem 0.5rem 0 1rem;
+ padding: .2rem .5rem 0 1rem !important;
 }
 
 /* stream post cards */
 .Aopndd {
- border-radius: 1.5rem;
+ border-radius: 1rem !important;
 }
 /* stream post cards */
 .LBlAUc {
- margin-bottom: 1rem;
+ margin-bottom: 1rem !important;
 }
 @media (max-width: 30em){
  .LBlAUc {
-   margin-bottom: 0.5rem;
+   margin-bottom: .5rem !important;
  }
 }
 /* stream post cards */
 .JZicYb {
- height:3rem;
+ height: 3rem !important;
+}
+/* copy link dialog */
+.hVNH5c {
+ box-shadow: 0px 8px 10px 1px rgba(0,0,0,.14), 0px 3px 14px 2px rgba(0,0,0,.12), 0px 5px 5px -3px rgba(0,0,0,.2) !important;
+ border-radius: .5rem !important;
+}
+/* stream post body */
+.n8F6Jd {
+ margin-top: .5rem !important;
 }
 
 /* attachment preview dimensions */
 .bHOAdb {
- height: 3rem;
- width: 4.5rem;
+ height: 3rem !important;
+ width: 4.5rem !important;
 }
 
 /* post files container */
 .hjqfGd {
- padding-bottom:0;
+ padding-bottom: 0 !important;
+}
+/* add or create button */
+.VfPpkd-LgbsSe-OWXEXe-INsAgc {
+ border-radius: 1rem !important;
+}
+.VfPpkd-LgbsSe-OWXEXe-INsAgc .VfPpkd-Jh9lGc {
+ border-radius: 1rem !important;
 }
 /* submit button */
 .AeAAkf {
- border-radius: 1.5rem;
+ border-radius: 1rem !important;
+}
+/* resubmit button */
+.UQuaGc {
+ border-radius: 1rem !important;
+}
+
+/* classwork tab */
+.iph-dialog.iph-dialog {
+ border-radius: 1rem !important;
+}
+.iph-dialog button {
+ border-radius: 1rem !important;
+}
+.nNUyy {
+ border-radius: 1rem !important;
+}
+.u73Apc {
+ height: 3rem !important;
+}
+.OlXwxf.OlXwxf:not(:first-child):hover .u73Apc,
+.OlXwxf:hover+.OlXwxf .u73Apc,
+.OlXwxf:not(:first-child).kKn9Nc .u73Apc,
+.OlXwxf.kKn9Nc+.OlXwxf .u73Apc {
+ height: 3.0625rem !important;
+}
+.OlXwxf+.lXuxY .u73Apc,
+.lXuxY+.OlXwxf .u73Apc {
+ height: 3.0625rem !important;
+}
+.lXuxY,
+.pO6AMc,
+.PqkECe {
+	border-radius: 1rem !important;
+}
+.tUJKGd:hover,
+.tUJKGd:focus-within {
+ border-radius: 1rem !important;
+}
+.KmLLod:hover {
+ border-radius: 1rem !important;
+}
+.JBMs6 {
+ border-radius: 1rem !important;
+}
+.ee1HBc .uO32ac,
+.ee1HBc .ypv4re {
+ border-bottom: 0 !important;
+}
+/* topics sidebar list item */
+.fXuRkd:hover,
+.zFfAHb:focus {
+ border-radius: 1rem !important;
+}
+/* medium screen topics drop down menu */
+.VfPpkd-O1htCb-OWXEXe-INsAgc .VfPpkd-NSFCdd-i5vt6e .VfPpkd-NSFCdd-Brv4Fb {
+ width:max(2rem,var(--mdc-shape-small,4px)) !important;
+ border-top-left-radius:var(--mdc-shape-small,1rem) !important;
+ border-bottom-left-radius:var(--mdc-shape-small,1rem) !important;
+}
+.VfPpkd-O1htCb-OWXEXe-INsAgc .VfPpkd-NSFCdd-i5vt6e .VfPpkd-NSFCdd-MpmGFe {
+	border-top-right-radius: var(--mdc-shape-small,1rem) !important;
+	border-bottom-right-radius: var(--mdc-shape-small,1rem) !important;
+}
+/* create button dialog */
+.VfPpkd-xl07Ob-XxIAqe {
+ border-radius: var(--mdc-shape-medium,.5rem) !important;
+}
+/* create due dialog */
+.y2d25 {
+ border-radius: .5rem !important;
+}
+/* create due dialog heading */
+.ECK80e {
+ padding: .5rem 1.5rem !important;
+}
+/* create due dialog body */
+.DTnYMd {
+	padding: .5rem 1.5rem !important;
 }
 
 /* teachers and Classmates heading, People tab */
 .uO32ac {
- height:2.5rem;
+ height: 2.5rem !important;
 }
 /* teachers list container */
 .raZwr {
- margin-bottom: 0.5rem;
+ margin-bottom: .5rem !important;
 }
 /* classmates heading */
 .MwhM8b {
- margin-bottom: 0.25rem;
+ margin-bottom: .25rem !important;
 }
 /* classmates list tr element */
 .d6CWTd {
- height: 0;
+ height: 0 !important;
+}
+
+/* to-do section*/
+/* assigned tab */
+/* class selector */
+.VfPpkd-O1htCb-OWXEXe-INsAgc .VfPpkd-TkwUic {
+ height: 3rem !important;
+}
+/* class selector drop down */
+.VfPpkd-aJasdd-RWgCYc-wQNmvb.VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-Woal0c-RWgCYc {
+ height: 2.5rem !important;
 }
