@@ -29,7 +29,7 @@
  padding-top: .5rem !important;
 }
 .Shk6y {
-	margin-top: 16px !important;
+ margin-top: 16px !important;
 }
 
 /* move class dialog close button */
@@ -37,15 +37,15 @@
 .ueScFe:not(:hover),
 .p9Nwte:not(:hover),
 .VsxsTb:not(:hover) {
-	color: #000 !important;
-	fill: #000 !important;
+ color: #000 !important;
+ fill: #000 !important;
 }
 .VsxsTb {
  color: #000 !important;
  fill: #000 !important;
 }
 .VsxsTb:hover {
-	background-color: rgba(0,0,0,.1) !important;
+ background-color: rgba(0,0,0,.1) !important;
 }
 
 /* file viewer open with button */
@@ -293,8 +293,8 @@
  border-bottom-left-radius:var(--mdc-shape-small,1rem) !important;
 }
 .VfPpkd-O1htCb-OWXEXe-INsAgc .VfPpkd-NSFCdd-i5vt6e .VfPpkd-NSFCdd-MpmGFe {
-	border-top-right-radius: var(--mdc-shape-small,1rem) !important;
-	border-bottom-right-radius: var(--mdc-shape-small,1rem) !important;
+ border-top-right-radius: var(--mdc-shape-small,1rem) !important;
+ border-bottom-right-radius: var(--mdc-shape-small,1rem) !important;
 }
 /* create button dialog */
 .VfPpkd-xl07Ob-XxIAqe {
@@ -310,7 +310,7 @@
 }
 /* create due dialog body */
 .DTnYMd {
-	padding: .5rem 1.5rem !important;
+ padding: .5rem 1.5rem !important;
 }
 
 /* teachers and Classmates heading, People tab */
