@@ -1,24 +1,29 @@
-# GCR Enhancer
+<img src="images/128.png">
 
-<p align="center">
-<img src="storeAssets/storeIcon.png">
-</p>
-A browser extension improves google classroom experience. Adds a quick download button next to file attachments and modifies CSS for a modern and more space efficient layout. Supports both chromium based browsers and firefox.
+# Enhancer for Classroom™
 
-## Preview
+This browser extension adds some quality of life features to [Google Classroom™](https://classroom.google.com/).
 
-<p align="center">
-  <img src="storeAssets/screenshot1.png" width="800">
-</p>
+## Features
+
+- Functional
+  - Download button next to all file attachments
+  - Dark mode toggle on navbar (Currently buggy on practice sets page)
+- Cosmetic
+  - Reduced padding and margins across the whole website
+  - Increase border-radius of all elements
+  - Use a lighter shade of white for background-color
 
 ## Installation
+
+This extension is available on the official add-on stores:
 
 |Chrome|Firefox|
 |:---:|:---:|
 |<a href="https://chrome.google.com/webstore/detail/google-classroom-quick-do/nbijdallbnpfkkglpdepfjdlelflfkdc"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg" height="64"></a>|<a href="https://addons.mozilla.org/en-US/firefox/addon/gcr-quick-download-button/"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg" width="64"></a>|
 |[Download](https://chrome.google.com/webstore/detail/google-classroom-quick-do/nbijdallbnpfkkglpdepfjdlelflfkdc)|[Download](https://addons.mozilla.org/en-US/firefox/addon/gcr-quick-download-button/)|
 
-## Manual installation
+### Manual installation
 
 #### Chrome
 
