@@ -16,7 +16,7 @@
   },
   "permissions": [ "storage" ],
   "manifest_version": 3,
-  "name": "GCR Enhancer",
+  "name": "Enhancer for Classroom™",
   "version": "1.2.0",
   "description": "UI improvements for Google Classroom"
 }
