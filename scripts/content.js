@@ -156,6 +156,6 @@ const bodyObserver = new MutationObserver(() => {
 
 
 // start observing mutations in document body after page loads
-window.onload = () => {
+window.addEventListener('load', () => {
   bodyObserver.observe(document.body, config.mutations);
-};
+});
