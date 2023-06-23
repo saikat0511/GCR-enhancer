@@ -17,7 +17,7 @@
   "permissions": [ "storage" ],
   "manifest_version": 2,
   "name": "Enhancer for Classroom™",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "UI improvements for Google Classroom",
   "browser_specific_settings": {
     "gecko": {
